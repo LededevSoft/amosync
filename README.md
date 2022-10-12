@@ -12,5 +12,5 @@ For install add to composer file:
 
 Run console command:
 ```
-composer req adminka/amosync
+composer req lebedevsoft/amosync
 ```
