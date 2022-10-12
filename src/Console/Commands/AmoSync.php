@@ -1,8 +1,8 @@
 <?php
 
-namespace Adminka\AmoSync\Console\Commands;
+namespace LebedevSoft\AmoSync\Console\Commands;
 
-use Adminka\AmoSync\Http\Controllers\AmoSyncController;
+use LebedevSoft\AmoSync\Http\Controllers\AmoSyncController;
 use Illuminate\Console\Command;
 
 class AmoSync extends Command

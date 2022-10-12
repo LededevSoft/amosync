@@ -1,8 +1,8 @@
 <?php
 
-namespace Adminka\AmoSync\Console\Commands;
+namespace LebedevSoft\AmoSync\Console\Commands;
 
-use Adminka\AmoSync\Http\Controllers\AmoMigrateController;
+use LebedevSoft\AmoSync\Http\Controllers\AmoMigrateController;
 use Illuminate\Console\Command;
 
 class AmoMigrate extends Command

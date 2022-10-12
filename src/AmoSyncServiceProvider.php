@@ -1,9 +1,9 @@
 <?php
 
-namespace Adminka\AmoSync;
+namespace LebedevSoft\AmoSync;
 
-use Adminka\AmoSync\Console\Commands\AmoMigrate;
-use Adminka\AmoSync\Console\Commands\AmoSync;
+use LebedevSoft\AmoSync\Console\Commands\AmoMigrate;
+use LebedevSoft\AmoSync\Console\Commands\AmoSync;
 use Illuminate\Support\ServiceProvider;
 
 class AmoSyncServiceProvider extends ServiceProvider

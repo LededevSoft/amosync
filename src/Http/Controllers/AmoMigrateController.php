@@ -1,9 +1,9 @@
 <?php
 
-namespace Adminka\AmoSync\Http\Controllers;
+namespace LebedevSoft\AmoSync\Http\Controllers;
 
-use Adminka\AmoCRM\Libs\AmoCRM;
-use Adminka\AmoSync\Models\AmoCustomFields;
+use LebedevSoft\AmoCRM\Libs\AmoCRM;
+use LebedevSoft\AmoSync\Models\AmoCustomFields;
 use App\Http\Controllers\Controller;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Schema\Blueprint;
