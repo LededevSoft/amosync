@@ -5,7 +5,7 @@ For install add to composer file:
 "repositories": [
         {
             "type": "composer",
-            "url": "https://github.com/LededevSoft/amocrm-laravel"
+            "url": "https://github.com/LededevSoft/amosync"
         }
 ],
 ````
