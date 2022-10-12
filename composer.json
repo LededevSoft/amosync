@@ -1,30 +1,30 @@
 {
-    "name": "adminka/amosync",
+    "name": "lebedevsoft/amosync",
     "description": "AmoCRM sync data to DB",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Adminka\\AmoSync\\": "src/"
+            "LebedevSoft\\AmoSync\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Anatolii Klimovych",
-            "email": "a@adminka.pro"
+            "name": "Lebedev Alexandr",
+            "email": "lebedev_as@bk.ru"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.3",
-        "adminka/amocrm-laravel": "^1.1"
+        "lebedevsoft/amocrm-laravel": "^1.1"
     },
     "require-dev": {
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Adminka\\AmoSync\\AmoSyncServiceProvider"
+                "LebedevSoft\\AmoSync\\AmoSyncServiceProvider"
             ]
         }
     }
