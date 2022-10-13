@@ -18,9 +18,9 @@ class CreateAmoTaskDeadlinesTable extends Migration
             $table->integer("entity_id");
             $table->integer("account_id")->nullable();
             $table->integer("created_by")->nullable();
-            $table->timestamp("created_at");
-            $table->timestamp("new_task_deadline_at");
-            $table->timestamp("old_task_deadline_at");
+            $table->timestamp("created_at")->nullable();
+            $table->timestamp("new_task_deadline_at")->nullable();
+            $table->timestamp("old_task_deadline_at")->nullable();
         });
     }
 

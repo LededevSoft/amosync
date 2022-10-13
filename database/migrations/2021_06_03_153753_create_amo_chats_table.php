@@ -20,7 +20,7 @@ class CreateAmoChatsTable extends Migration
 			$table->string("entity_type");
             $table->integer("account_id")->nullable();
             $table->integer("created_by")->nullable();
-            $table->timestamp("created_at");
+            $table->timestamp("created_at")->nullable();
             $table->string("message_id");
         });
     }
